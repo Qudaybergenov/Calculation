@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#0f0f0f"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/operacia"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:ellipsize="start"
+        android:textSize="40sp"
+        android:singleLine="true"
+
+        />
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="350dp"
+        android:layout_height="150sp"
+        android:textColor="@color/white"
+        android:gravity="end"
+        android:ellipsize="end"
+        android:textSize="40sp"
+        android:singleLine="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="350dp"
+            android:layout_height="0dp">
+
+            <TextView
+                style="@style/drogou"
+                android:text="AC"
+                android:id="@+id/ac_id"
+                />
+
+            <TextView
+                android:id="@+id/skobkaashu_id"
+                style="@style/drogou"
+                android:text="(" />
+
+            <TextView
+                style="@style/drogou"
+                android:text=")"
+                android:id="@+id/skobkazhabu_id"
+                />
+            <TextView
+                style="@style/operaciastyle"
+                android:text="÷"
+                android:id="@+id/bolu_id"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="350dp"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/numberstyle"
+                android:text="7"
+                android:id="@+id/san7_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="8"
+                android:id="@+id/san8_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="9"
+                android:id="@+id/san9_id"
+                />
+            <TextView
+                style="@style/operaciastyle"
+                android:text="×"
+                android:id="@+id/kobeitu_id"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="350dp"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/numberstyle"
+                android:text="4"
+                android:id="@+id/san4_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="5"
+                android:id="@+id/san5_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="6"
+                android:id="@+id/san6_id"
+                />
+
+            <TextView
+                android:id="@+id/azaitu_id"
+                style="@style/operaciastyle"
+                android:text="-" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="350dp"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/numberstyle"
+                android:text="1"
+                android:id="@+id/san1_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="2"
+                android:id="@+id/san2_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="3"
+                android:id="@+id/san3_id"
+                />
+
+            <TextView
+                android:id="@+id/kosu_id"
+                style="@style/operaciastyle"
+                android:text="+" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:layout_width="350dp"
+            android:layout_height="0dp">
+            <TextView
+                style="@style/numberstyle"
+                android:text="."
+                android:id="@+id/tochka_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="0"
+                android:id="@+id/san0_id"
+                />
+            <TextView
+                style="@style/numberstyle"
+                android:text="⌫"
+                android:id="@+id/back_id"
+                />
+            <TextView
+                style="@style/operaciastyle"
+                android:text="="
+                android:id="@+id/res_id"
+                />
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
